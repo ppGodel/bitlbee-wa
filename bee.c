@@ -164,7 +164,7 @@ queue_dispatch(gpointer ptr, gint __attribute__((unused)) fd,
 static void
 wabee_init(account_t *acc)
 {
-	set_add(&acc->set, "config_dir", "/var/lib/bitlbee", NULL, acc);
+	set_add(&acc->set, "config_dir", "/var/lib/bitlbee/wa", NULL, acc);
 }
 
 static wabee_t *
